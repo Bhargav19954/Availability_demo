@@ -1,5 +1,5 @@
 const express = require('express')
-const Availability = require('../models/user')
+const Availability = require('../models/availability')
 const router = new express.Router()
 
 router.post('/availability', async (req, res) => {
